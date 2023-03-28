@@ -6,6 +6,9 @@
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  z-index: 5;
+  background-color: rgba(0, 229, 255, 0.301);
+  position: relative;
 }
 
 .feedback-form label {
@@ -18,12 +21,15 @@
   padding: 8px 12px;
   font: inherit;
   cursor: pointer;
+  width: 430px;
+  margin-right: 10px;
 }
 
 input,
 textarea {
   padding: 8px;
   font: inherit;
+  background-color: rgba(231, 10, 243, 0.196);
 }
 
 textarea {
