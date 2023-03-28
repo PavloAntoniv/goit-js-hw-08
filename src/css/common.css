@@ -80,8 +80,8 @@ a {
 /* btn */
 .custom-btn {
   margin-left: 10px;
-  width: 130px;
-  height: 40px;
+  width: 450px;
+  height: 50px;
   color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
@@ -91,7 +91,8 @@ a {
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
@@ -99,6 +100,8 @@ a {
 }
 /* 6 */
 .btn-6 {
+  font-size: 25;
+  color: black;
   background: rgb(247, 150, 192);
   background: radial-gradient(
     circle,
@@ -191,4 +194,9 @@ a {
 .player {
   z-index: 3;
   position: relative;
+}
+
+.btn-list {
+  display: flex;
+  justify-content: center;
 }
